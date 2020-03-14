@@ -20,7 +20,6 @@ def get_user(id):
 def changepasswd(id):
     return 'change passwd'
 
-
 @user.route('/edit-profile', methods=['GET', 'POST'])
 @login_required
 def edit_profile():
