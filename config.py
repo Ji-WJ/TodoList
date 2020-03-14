@@ -13,6 +13,7 @@ class Config:
     SQLALCHEMY_TRACK_MODIFICATIONS = True
     FLASKY_MAIL_SUBJECT_PREFIX = '[才华有限公司]'
     FLASKY_MAIL_SENDER = '137965306@qq.com'
+    PER_PAGE = 2
 
     @staticmethod
     def init_app(app):

@@ -8,3 +8,4 @@ class EditProfileForm(FlaskForm):
     location = StringField('用户住址', validators=[Length(0, 64)])
     about_me = TextAreaField('自我介绍')
     submit = SubmitField('更改资料')
+
